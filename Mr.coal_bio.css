@@ -1,7 +1,24 @@
 body{
-    background-color: black;
+    background-image: url(sky.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
 
 }
-form{
-    background-color: brown;
+
+.box{
+    background-color: brown; 
+    border-style:solid;
+    border-color:white;
+    padding: 12px;
+    text-align: justify;
+    margin: 20px;
+}
+#pic{
+    margin-left: 500px;
+    border-style: dashed;
+    border-color: rgb(12, 200, 90);
+    outline:solid 8px brown;
+}
+::selection{
+    background-color: gray;
 }
