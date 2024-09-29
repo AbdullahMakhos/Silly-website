@@ -1,0 +1,15 @@
+body{
+    background-image:url(bg-hehe.png);
+    background-repeat: repeat;
+    background-size: cover;
+}
+img{
+    width: 10%;
+    height: 10%;
+    border:white 5px solid;
+    float:left;
+    margin-right:5%; 
+}
+p{
+color:white;
+}
