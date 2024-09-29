@@ -2,20 +2,12 @@ body{
     background-color: rgb(66, 199, 18);
 
 }
-
-#pic0{
-margin-top: 30px;
-margin-left: 500px;
-border-style: dashed;
-border-color: rgb(12, 200, 90);
-outline:solid 8px rgb(185, 206, 21);
-}
 .box{
     background-color: yellow;
     border:solid medium black;
     border-radius: 20px;
     padding:10px;
-    text-align: justify;
+    margin:10px;
 }
 ::selection{
     background-color: gray;

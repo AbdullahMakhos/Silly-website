@@ -5,7 +5,7 @@ background-image: url(index_background_photo.jpg);
     background-color: rgb(214, 221, 138);
     border:black medium solid;
     border-radius: 8px;
-    width: 750px;
+    width: 50%;
     padding:25px;
     margin: auto;
     margin-top:2%;
@@ -13,6 +13,7 @@ background-image: url(index_background_photo.jpg);
 }
 input[type="password"],input[type="email"]{
     width: 100%;
+    border:3px solid black;
 }
 input[type="submit"]{
     width: 100%;
@@ -26,14 +27,18 @@ input[type="submit"]:hover{
     background-color:rgb(226, 106, 36);
     cursor: pointer;
 }
+input[type="text"]:active{
+    border:solid 4px blue;
+}
 #d{
-    margin:auto;
-    width:500px;
+    margin-left:30%;
+    width:35%;
     background-color: rgb(214, 221, 138);
     border:black medium solid;
     border-radius: 8px;
-    padding:20px;
+    padding:2%;
     opacity: 90%;
+    display: inline-block;
 }
 a:hover{
     color: rgb(191, 20, 20);
@@ -41,3 +46,4 @@ a:hover{
 ::selection{
     background-color: gray;
 }
+

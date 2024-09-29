@@ -2,23 +2,24 @@ body{
     background-image: url(sky.jpg);
     background-size: cover;
     background-repeat: no-repeat;
-
+    font-style: italic;
+    color:black;
 }
-
 .box{
     background-color: brown; 
     border-style:solid;
     border-color:white;
     padding: 12px;
-    text-align: justify;
     margin: 20px;
-}
-#pic{
-    margin-left: 500px;
-    border-style: dashed;
-    border-color: rgb(12, 200, 90);
-    outline:solid 8px brown;
+    border-radius: 10px;
 }
 ::selection{
     background-color: gray;
+}
+#n{
+    opacity: 0.5;
+    border-radius: 10px;
+}
+#n:focus{
+    border: black solid 2px;
 }

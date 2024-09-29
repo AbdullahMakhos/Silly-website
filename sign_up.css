@@ -13,6 +13,10 @@ background-image: url(index_background_photo.jpg);
 }
 input[type="text"],input[type="email"]{
     width: 100%;
+    border: 3px black solid;
+}
+input[type="text"]:active{
+    border-color: blue;
 }
 input[type="submit"]{
     width: 100%;
