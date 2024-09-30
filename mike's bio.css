@@ -12,3 +12,12 @@ body{
 ::selection{
     background-color: gray;
 }
+.wid{
+    width:60%;
+    margin:auto;
+    display: block;
+}
+.pic{
+    max-width: 80%;
+}
+

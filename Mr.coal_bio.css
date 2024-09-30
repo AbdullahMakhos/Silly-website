@@ -23,3 +23,6 @@ body{
 #n:focus{
     border: black solid 2px;
 }
+.pic{
+    max-width: 80%;
+}
